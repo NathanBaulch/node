@@ -108,7 +108,7 @@ subSystemLabels:
   /^lib(?:\/internal)?\/(\w+)\.js?$/: $1  # Other .js files
   /^lib(?:\/internal)?\/(\w+)(?:\/|$)/: $1  # Subfolders
 
-exlusiveLabels:
+exclusiveLabels:
   # More specific tests
   /^test\/addons\//: test, addons
   /^test\/debugger/: test, debugger

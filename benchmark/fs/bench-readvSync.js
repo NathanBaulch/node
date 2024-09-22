@@ -6,13 +6,13 @@ const assert = require('assert');
 const tmpdir = require('../../test/common/tmpdir');
 tmpdir.refresh();
 
-const exptectedBuff = Buffer.from('Benchmark Data');
-const expectedLength = exptectedBuff.length;
+const expectedBuff = Buffer.from('Benchmark Data');
+const expectedLength = expectedBuff.length;
 
 const bufferArr = [Buffer.alloc(expectedLength)];
 
 const filename = tmpdir.resolve('readv_sync.txt');
-fs.writeFileSync(filename, exptectedBuff);
+fs.writeFileSync(filename, expectedBuff);
 
 const bench = common.createBenchmark(main, {
   type: ['valid', 'invalid'],

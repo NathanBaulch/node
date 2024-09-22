@@ -2623,7 +2623,7 @@
 "vTmR9W0Nv3vXkg==\n"
 "-----END CERTIFICATE-----",
 
-/* ANF Secure Server Root CA */
+/* AND Secure Server Root CA */
 "-----BEGIN CERTIFICATE-----\n"
 "MIIF7zCCA9egAwIBAgIIDdPjvGz5a7EwDQYJKoZIhvcNAQELBQAwgYQxEjAQBgNVBAUTCUc2\n"
 "MzI4NzUxMDELMAkGA1UEBhMCRVMxJzAlBgNVBAoTHkFORiBBdXRvcmlkYWQgZGUgQ2VydGlm\n"
